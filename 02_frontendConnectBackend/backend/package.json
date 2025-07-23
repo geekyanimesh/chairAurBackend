@@ -1,16 +1,12 @@
 {
-  "name": "backend",
+  "name": "index.js",
   "version": "1.0.0",
-  "description": "a simple app to connect frontend to backend",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
   "author": "geekyanimesh",
   "license": "ISC",
-  "dependencies": {
-    "dotenv": "^17.2.0",
-    "express": "^5.1.0"
-  }
+  "description": ""
 }
