@@ -23,7 +23,7 @@ const characters = [
   { name: "Arya Stark", email: "maisie_williams@gameofthron.es" }
 ];
 
-app.get("/characters", (req, res) => {
+app.get("/api/characters", (req, res) => {
   res.json(characters);
 });
 
